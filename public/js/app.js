@@ -5,6 +5,7 @@ const fetchWeather = (address, callback) => {
         });
     });
 }
+
 const weatherForm = document.querySelector('form');
 const locationInput = document.getElementById('locationInput');
 weatherForm.addEventListener('submit', (e) => {
